@@ -21,7 +21,7 @@ if not OPENAI_KEY or not SPOTIFY_CLIENT_ID or not SPOTIFY_CLIENT_SECRET:
 
 
 app = FastAPI()
-openai = OpenAI(api_key='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')
+openai = OpenAI(api_key=OPENAI_KEY)
 
 origins = ["*"]
 
